@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/adnanbirparic/static/css/main.98cd28a1.chunk.css",
+    "main.js": "/adnanbirparic/static/js/main.a5d3d2c9.chunk.js",
+    "main.js.map": "/adnanbirparic/static/js/main.a5d3d2c9.chunk.js.map",
+    "runtime-main.js": "/adnanbirparic/static/js/runtime-main.daf331ad.js",
+    "runtime-main.js.map": "/adnanbirparic/static/js/runtime-main.daf331ad.js.map",
+    "static/js/2.913864c1.chunk.js": "/adnanbirparic/static/js/2.913864c1.chunk.js",
+    "static/js/2.913864c1.chunk.js.map": "/adnanbirparic/static/js/2.913864c1.chunk.js.map",
+    "index.html": "/adnanbirparic/index.html",
+    "static/css/main.98cd28a1.chunk.css.map": "/adnanbirparic/static/css/main.98cd28a1.chunk.css.map",
+    "static/js/2.913864c1.chunk.js.LICENSE.txt": "/adnanbirparic/static/js/2.913864c1.chunk.js.LICENSE.txt",
+    "static/media/2_profileImg.ea55c53c.jpg": "/adnanbirparic/static/media/2_profileImg.ea55c53c.jpg",
+    "static/media/Adnan Birparic_CV.aeb0b576.pdf": "/adnanbirparic/static/media/Adnan Birparic_CV.aeb0b576.pdf",
+    "static/media/App.css": "/adnanbirparic/static/media/trump_gothic_east_bold.02995660.ttf",
+    "static/media/css.463e319b.png": "/adnanbirparic/static/media/css.463e319b.png",
+    "static/media/html.ff3cf75e.png": "/adnanbirparic/static/media/html.ff3cf75e.png",
+    "static/media/java.f5dd86c3.png": "/adnanbirparic/static/media/java.f5dd86c3.png",
+    "static/media/php.c67d24b4.png": "/adnanbirparic/static/media/php.c67d24b4.png",
+    "static/media/react_puzzle.d9b692b4.gif": "/adnanbirparic/static/media/react_puzzle.d9b692b4.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.daf331ad.js",
+    "static/js/2.913864c1.chunk.js",
+    "static/css/main.98cd28a1.chunk.css",
+    "static/js/main.a5d3d2c9.chunk.js"
+  ]
+}
