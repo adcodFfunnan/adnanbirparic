@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/adnanbirparic/static/css/main.5407d854.chunk.css",
-    "main.js": "/adnanbirparic/static/js/main.e11fb075.chunk.js",
-    "main.js.map": "/adnanbirparic/static/js/main.e11fb075.chunk.js.map",
+    "main.js": "/adnanbirparic/static/js/main.8b9f8121.chunk.js",
+    "main.js.map": "/adnanbirparic/static/js/main.8b9f8121.chunk.js.map",
     "runtime-main.js": "/adnanbirparic/static/js/runtime-main.daf331ad.js",
     "runtime-main.js.map": "/adnanbirparic/static/js/runtime-main.daf331ad.js.map",
     "static/js/2.275c13fb.chunk.js": "/adnanbirparic/static/js/2.275c13fb.chunk.js",
@@ -11,7 +11,7 @@
     "static/css/main.5407d854.chunk.css.map": "/adnanbirparic/static/css/main.5407d854.chunk.css.map",
     "static/js/2.275c13fb.chunk.js.LICENSE.txt": "/adnanbirparic/static/js/2.275c13fb.chunk.js.LICENSE.txt",
     "static/media/2_profileImg.ea55c53c.jpg": "/adnanbirparic/static/media/2_profileImg.ea55c53c.jpg",
-    "static/media/Adnan Birparic_CV.aeb0b576.pdf": "/adnanbirparic/static/media/Adnan Birparic_CV.aeb0b576.pdf",
+    "static/media/Adnan Birparic_CV.c20d0d97.pdf": "/adnanbirparic/static/media/Adnan Birparic_CV.c20d0d97.pdf",
     "static/media/App.css": "/adnanbirparic/static/media/trump_gothic_east_bold.02995660.ttf",
     "static/media/css.463e319b.png": "/adnanbirparic/static/media/css.463e319b.png",
     "static/media/html.ff3cf75e.png": "/adnanbirparic/static/media/html.ff3cf75e.png",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.daf331ad.js",
     "static/js/2.275c13fb.chunk.js",
     "static/css/main.5407d854.chunk.css",
-    "static/js/main.e11fb075.chunk.js"
+    "static/js/main.8b9f8121.chunk.js"
   ]
 }
