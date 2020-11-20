@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/adnanbirparic/static/css/main.f40dcf95.chunk.css",
-    "main.js": "/adnanbirparic/static/js/main.2b7ffb07.chunk.js",
-    "main.js.map": "/adnanbirparic/static/js/main.2b7ffb07.chunk.js.map",
+    "main.css": "/adnanbirparic/static/css/main.5407d854.chunk.css",
+    "main.js": "/adnanbirparic/static/js/main.e11fb075.chunk.js",
+    "main.js.map": "/adnanbirparic/static/js/main.e11fb075.chunk.js.map",
     "runtime-main.js": "/adnanbirparic/static/js/runtime-main.daf331ad.js",
     "runtime-main.js.map": "/adnanbirparic/static/js/runtime-main.daf331ad.js.map",
-    "static/js/2.913864c1.chunk.js": "/adnanbirparic/static/js/2.913864c1.chunk.js",
-    "static/js/2.913864c1.chunk.js.map": "/adnanbirparic/static/js/2.913864c1.chunk.js.map",
+    "static/js/2.275c13fb.chunk.js": "/adnanbirparic/static/js/2.275c13fb.chunk.js",
+    "static/js/2.275c13fb.chunk.js.map": "/adnanbirparic/static/js/2.275c13fb.chunk.js.map",
     "index.html": "/adnanbirparic/index.html",
-    "static/css/main.f40dcf95.chunk.css.map": "/adnanbirparic/static/css/main.f40dcf95.chunk.css.map",
-    "static/js/2.913864c1.chunk.js.LICENSE.txt": "/adnanbirparic/static/js/2.913864c1.chunk.js.LICENSE.txt",
+    "static/css/main.5407d854.chunk.css.map": "/adnanbirparic/static/css/main.5407d854.chunk.css.map",
+    "static/js/2.275c13fb.chunk.js.LICENSE.txt": "/adnanbirparic/static/js/2.275c13fb.chunk.js.LICENSE.txt",
     "static/media/2_profileImg.ea55c53c.jpg": "/adnanbirparic/static/media/2_profileImg.ea55c53c.jpg",
     "static/media/Adnan Birparic_CV.aeb0b576.pdf": "/adnanbirparic/static/media/Adnan Birparic_CV.aeb0b576.pdf",
     "static/media/App.css": "/adnanbirparic/static/media/trump_gothic_east_bold.02995660.ttf",
@@ -22,12 +22,13 @@
     "static/media/photo_4.9844a67a.png": "/adnanbirparic/static/media/photo_4.9844a67a.png",
     "static/media/photo_5.0007be0f.png": "/adnanbirparic/static/media/photo_5.0007be0f.png",
     "static/media/photo_6.23cc57d5.png": "/adnanbirparic/static/media/photo_6.23cc57d5.png",
+    "static/media/photo_8.b14cb7a3.png": "/adnanbirparic/static/media/photo_8.b14cb7a3.png",
     "static/media/php.c67d24b4.png": "/adnanbirparic/static/media/php.c67d24b4.png"
   },
   "entrypoints": [
     "static/js/runtime-main.daf331ad.js",
-    "static/js/2.913864c1.chunk.js",
-    "static/css/main.f40dcf95.chunk.css",
-    "static/js/main.2b7ffb07.chunk.js"
+    "static/js/2.275c13fb.chunk.js",
+    "static/css/main.5407d854.chunk.css",
+    "static/js/main.e11fb075.chunk.js"
   ]
 }
