@@ -361,8 +361,7 @@
 
 .ProjectH{
   position: relative;
-   
-  
+    
 }
 
 .ProjectH h1{
@@ -376,17 +375,19 @@
   opacity: 0;
   background-color: #ffffff;
   margin: 0px;
-     
 }
+
 .ProjectH.Animate h1{
   animation:animateProjects;
   animation-duration: 1s;
-  animation-fill-mode: forwards;
+  opacity: 1;
+  transform:translateY(0px);
 }
 @keyframes animateProjects{
   0% {transform:translateY(150px);opacity: 0;}
   100% {transform:translateY(0px);opacity: 1;}
 }
+
 .ProjectH hr { 
   width:100px;
   height: 3px;
@@ -414,7 +415,8 @@
  .ProjectN.Animate {
   animation:animateProjects;
   animation-duration: 2s;
-  animation-fill-mode: forwards;
+  opacity: 1;
+  transform:translateY(0px);
  }
 
  #projects .Button{
@@ -451,52 +453,59 @@
   animation-duration: 1s;
   animation-fill-mode: forwards;
   vertical-align: top;
- 
 }
 .Project.Animate{   
-  animation:animateProjects;
+  animation:animateProjectsGoUp;
   animation-duration: 2s;
-  animation-fill-mode: forwards;
+  transform: translateY(0px);
+  opacity: 1;
+  transition: transform 0.3s; /* for hover tranfrom  */
+  
+  
 }
 
+@keyframes animateProjectsGoUp{
+  0% {transform:translateY(150px);opacity: 0;}
+  100% {transform:translateY(0px);opacity: 1;}
+}
 @keyframes animateProjectsGoDown{
   0% {transform:translateY(0px);opacity: 1;}
   100% {transform:translateY(150px);opacity: 0;}
 }
 
+.Project.Animate:hover {
+  transform:scale(1.01); 
 
-.Project:hover .ProjectTitle{
-  color:#bf0a29;
-  transition: color 1s;
- 
 }
+  
+
+@keyframes animateOnHover{
+  0% {transform:scale(1);}
+  100% {transform:scale(1.1);}
+}
+
 
 
 .ProjectIMG{
   position: relative;
   width:100%;
   padding-bottom: 68%;
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+  overflow: hidden;
+ 
+ 
 }
 .ProjectImg{
   position: absolute;
   width: 100%;
   height: 100%;
+  
 }
-.ProjDescr .ProjectTitle{
-  position: absolute;
-  bottom:0px;
-  margin-bottom: 5px;
-  margin-left:8px;
-  font-family: Trump Gothic East,sans-serif;
-  font-size: 2em;
-  color:rgba(17,21,23,.9);
-}
+
 .ProjDescr{
   position: relative;
-  border-bottom: 1px solid rgba(0,0,0,0.15);
-  
-  min-height: 180px;
-
+  padding-bottom: 20px; 
+  min-height: 115px;
 }
 
 .ProjDescr p{
@@ -504,9 +513,22 @@
   font-size: 16px; 
   text-align: justify;
   color:#616161;
-  margin:10px;
+  margin:10px 10px 0px 10px;
 }
-
+.ProjectTitle{
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+ 
+  
+}
+.ProjectTitle p{
+  position: relative;
+  margin:0px 0px 5px 8px;
+  font-family: Trump Gothic East,sans-serif;
+  font-size: 2em;
+  color:rgba(17,21,23,.9);
+  
+  
+}
 .ProjectButtons{
   border-bottom: 1px solid rgba(0,0,0,0.15);
 }
@@ -522,9 +544,11 @@
   color:#0080ff;
   margin:5px 0px 5px 5px;
   cursor: pointer;
+  background-color: #F1F1F1;
 }
 .ProjectButtons a:hover{
-  background-color: #F1F1F1;
+  background-color: #0080ff;
+  color:#ffffff;
   
 }
 
@@ -534,7 +558,7 @@
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   padding: 10px 10px;
-  margin:5px 0px 5px 5px;
+  margin:5px 0px 5px 2px;
   font-size: 0.9em;
   color:rgba(17,21,23,.9); 
   
@@ -659,6 +683,33 @@
   outline:none;
 }
 
+.FormDiv textarea.Incorrect{
+  border:1px solid #ef0d33;
+}
+.FormDiv textarea.Incorrect::placeholder{
+  color: #ef0d33;
+}
+
+.FormDiv input.Incorrect{
+  border:1px solid #ef0d33;
+}
+.FormDiv input.Incorrect::placeholder{
+  color: #ef0d33;
+}
+.FormDiv textarea.Incorrect{
+  color:#ef0d33;
+ }
+
+.FormDiv textarea.Correct{
+  border:1px solid greenyellow;
+}
+.FormDiv textarea.Correct{
+ color:#2ECC40;
+}
+.FormDiv input.Correct{
+  border:1px solid greenyellow;
+}
+
 .Footer {
   color:#ffffff;
   background-color:#111517;
@@ -734,17 +785,29 @@
 
                                                                        /* RESPONSIVE */ 
 
-@media only screen and (max-width:1126px){
-                                                                       /* PROJECT  1126px   */ 
-  .ProjectSkills p{
-      margin-left: 0px;
-      padding: 10px 8px;
-    }
-}     
 
-@media only screen and (max-width:1023px){
+@media only screen and (max-width:1680px){
+                                                                          /* PROJECT  1680px   */
+  .ProjDescr{ 
+   
+    min-height: 130px;
+  }
+}
 
-                                                                        /* HOME  1023px   */
+@media only screen and (max-width:1440px){
+                                                                            /* PROJECT  1440px   */
+  .ProjDescr{
+   
+    min-height: 170px;
+  }
+}
+
+
+    
+
+@media only screen and (max-width:1024px){
+
+                                                                        /* HOME  1024px   */
   .MySkillsH div{
       display: block;
   }
@@ -769,7 +832,7 @@
   }
 
 
-                                                                       /* PROJECT  1023px   */  
+                                                                       /* PROJECT  1024px   */  
 
   .Project{
       width:40%;
@@ -779,6 +842,9 @@
   .ProjectSkills p{
     margin-left: 5px;
     padding: 10px 10px;
+  }
+  .ProjDescr{
+    min-height: 135px;
   }
 
 }
@@ -920,6 +986,10 @@
   }
   .ProjectN{
       margin-bottom: 20px; 
+  }
+
+  .ProjDescr{
+    min-height: auto;
   }
 
                                                                                  /* CONTACT  720px   */

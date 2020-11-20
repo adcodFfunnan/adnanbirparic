@@ -30,11 +30,10 @@ class App extends React.Component {
     let doUpdate = false;
 
     let windowAfterScroll = window.scrollY;
-    console.log(windowAfterScroll);
     if (windowAfterScroll > this.windowYOffset) {
       if (StyleNavbarOnScroll['show']) {
         StyleNavbarOnScroll['show'] = false; doUpdate = true;
-        console.log("first");
+  
       }
     } else {
       if (!StyleNavbarOnScroll['show']) {
@@ -104,7 +103,6 @@ class App extends React.Component {
   }
   componentDidUpdate() {
 
-    console.log("MainApp");
 
   }
 
@@ -115,8 +113,10 @@ class App extends React.Component {
         <NavbarWithScroll
           DomRefs={this.DomRefs}
           StyleNavbarOnScroll={this.state.StyleNavbarOnScroll} />
-        
-        <Home homeRef={this.DomRefs["home"]} />
+
+        <Home 
+        homeRef={this.DomRefs["home"]}
+        projectsRef={this.DomRefs["projects"]}/>
 
         <Projects
           projectsRef={this.DomRefs["projects"]}

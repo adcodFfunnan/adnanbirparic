@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 
 import githubIcon from '../Files/Icons/github.png';
@@ -8,17 +8,17 @@ import resume from '../Files/PDF/Adnan Birparic_CV.pdf';
 
 function NavbarWithScroll(props) {
     const [ClassForHeader, setHeader] = useState("");
-    useEffect(() => { console.log("Navbar"); });
+    
     return (
         <div className={props.StyleNavbarOnScroll["show"] ? "Header " + ClassForHeader : "Header Hide " + ClassForHeader}>
-            
+
             <div className="IconsWithAnimate">
-                        <div>
-                            <img src={githubIcon} />
-                            <img src={githubIcon} />
-                        </div>
-                        
-                    </div>
+                <div>
+                    <a href="https://github.com/adcodFfunnan" target="_blank"><img src={githubIcon} />
+                        <img src={githubIcon} /></a>
+                </div>
+
+            </div>
             <i className="fas fa-bars" onClick={() => {
                 if (ClassForHeader === "") {
 
@@ -39,7 +39,7 @@ function NavbarWithScroll(props) {
                         if (ClassForHeader === "BarsClicked") { setHeader(""); }
                         document.body.classList.remove("LockBody");
                     }}>PROJECTS</a>
-                <a href={resume} download onClick={() => {
+                <a href={resume} target="_blank" onClick={() => {
                     if (ClassForHeader === "BarsClicked") { setHeader(""); }
                     document.body.classList.remove("LockBody");
                 }}>RESUME</a>

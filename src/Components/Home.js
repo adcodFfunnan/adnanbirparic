@@ -65,7 +65,7 @@ function Home(props) {
             <div id="statment">
 
                 <p>I am an electrical engineer with great interest in computer programing. After several years of working as an electrical engineer, I decided to change my career and find a job in this field because it has always interested me the most. I am constantly improving my knowledge by researching popular software technologies and working on new projects to get a job as a Junior Software Developer. </p>
-                <div className="Button">
+                <div className="Button" onClick={()=>{props.projectsRef.current.scrollIntoView();}}>
                     <span>View My Work</span>
                     <span>View My Work</span>
                 </div>
