@@ -5,8 +5,8 @@ import emailjs from 'emailjs-com';
 
 
 
+//new comment
 
-//here is some comment
 function Contact(props) {
     const [formElements, setForm] = useState({ Name: "", Email: "", Message: "" });
     const [styleIncorrect, setStyle] = useState({ Name: "", Email: "", Message: "" });
