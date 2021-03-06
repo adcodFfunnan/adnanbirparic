@@ -8,10 +8,21 @@ import photo_5 from '../Files/Projects/photo_5.png';
 import photo_6 from '../Files/Projects/photo_6.png';
 import photo_7 from '../Files/Projects/photo_7.png';
 import photo_8 from '../Files/Projects/photo_8.png';
+import photo_9 from '../Files/Projects/photo_9.png';
 
 
 function JustProjects(props) {
     let myProjects = [{
+        ProjectImg: photo_9,
+        description: "It is a web application where a user can keep records of books and writers. Only logged-in users can add and modify book and writer information. Guests (not logged-in users) can view the data. It is possible to connect books with the writers.",
+        group: "new",
+        key: 9,
+        skills: ["React & Redux", "Axios", "Bootstrap", "Node JS", "Express", "MySQL (Knex)"],
+        title: "BookApp",
+        githubLink: "https://github.com/adcodFfunnan/bookapp",
+        onlineLink: "https://adnanbookapp.herokuapp.com/"
+    },
+    {
         ProjectImg: photo_1,
         description: "This is my portfolio website built with React JS.",
         group: "new",
@@ -122,6 +133,9 @@ function JustProjects(props) {
                 <p>{(project.skills[1] != null) ? <><span></span>{project.skills[1]}</> : null}</p>
                 <p>{(project.skills[2] != null) ? <><span></span>{project.skills[2]}</> : null}</p>
                 <p>{(project.skills[3] != null) ? <><span></span>{project.skills[3]}</> : null}</p>
+                <p>{(project.skills[4] != null) ? <><span></span>{project.skills[4]}</> : null}</p>
+                <p>{(project.skills[5] != null) ? <><span></span>{project.skills[5]}</> : null}</p>
+                <p>{(project.skills[6] != null) ? <><span></span>{project.skills[6]}</> : null}</p>
             </div>
         </div>
     );

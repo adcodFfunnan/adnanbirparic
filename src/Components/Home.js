@@ -4,13 +4,13 @@ import React from 'react';
 
 import profileImg from '../Files/Images/2_profileImg.jpg';
 import reactIcon from '../Files/Icons/react.png';
+import reduxIcon from '../Files/Icons/redux.png';
 import jsIcon from '../Files/Icons/js.png';
 import htmlIcon from '../Files/Icons/html.png';
 import cssIcon from '../Files/Icons/css.png';
-import javaIcon from '../Files/Icons/java.png';
-import pythonIcon from '../Files/Icons/python.png';
-import phpIcon from '../Files/Icons/php.png';
-
+import bootstrapIcon from '../Files/Icons/bootstrap.png';
+import nodeIcon from '../Files/Icons/nodejs.png';
+import mysqlIcon from '../Files/Icons/mysql.png';
 
 function MySkillsH() {
     return (
@@ -23,22 +23,23 @@ function MySkillsH() {
                     <tbody>
                         <tr>
                             <td className="White"><img src={reactIcon} /></td>
+                            <td className="White"><img src={reduxIcon} /></td>
                             <td><img src={jsIcon} /></td>
                             <td><img src={htmlIcon} /></td>
                             <td><img src={cssIcon} /></td>
-                            <td className="White"><img src={javaIcon} /></td>
-                            <td><img src={pythonIcon} /></td>
-                            <td><img src={phpIcon} /></td>
+                            <td><img src={bootstrapIcon} /></td>
+                            <td><img src={nodeIcon} /></td>
+                            <td className="White"><img src={mysqlIcon} /></td>
                         </tr>
                         <tr>
                             <td><span>React</span></td>
+                            <td><span>Redux</span></td>
                             <td><span>JavaScript</span></td>
                             <td><span>HTML</span></td>
                             <td><span>CSS</span></td>
-                            <td><span>Java</span></td>
-                            <td><span>Python</span></td>
-                            <td><span>PHP</span></td>
-
+                            <td><span>Bootstrap</span></td>
+                            <td><span>NodeJS</span></td>
+                            <td><span>MySQL</span></td>
                         </tr>
 
                     </tbody>
